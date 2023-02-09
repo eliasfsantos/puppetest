@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 import express from 'express';
-console.log("gisleiangelo@gmail.com"); // remove this after you've confirmed it is working
+console.log("test"); // remove this after you've confirmed it is working
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
